@@ -1,0 +1,13 @@
+<div class="container">
+  <!-- Menú vertical en la esquina izquierda -->
+  <div class="sidebar-menu">
+    <p-menu [model]="menuItems" class="vertical-menu"></p-menu>
+  </div>
+
+  <!-- Formulario con 10 componentes PrimeNG -->
+  <div class="main-content">
+    <app-user-form></app-user-form>
+  </div>
+
+  <router-outlet></router-outlet>
+</div>
